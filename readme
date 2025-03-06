@@ -1,0 +1,5 @@
+RUN train_model first by the command "python train_model.py"
+
+After embeddings saved into your laptop
+
+RUN app.py by the command "python app.py"

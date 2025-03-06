@@ -1,0 +1,7 @@
+numpy
+opencv-python 
+face-recognition
+albumentations
+h5py
+dlib
+cmake
