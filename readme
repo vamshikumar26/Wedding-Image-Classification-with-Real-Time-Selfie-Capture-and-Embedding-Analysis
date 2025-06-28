@@ -1,5 +1,56 @@
-RUN train_model first by the command "python train_model.py"
+# 💍 Wedding Image Classification and Real-Time Selfie Recognition using Embeddings
 
-After embeddings saved into your laptop
+This project uses deep learning and computer vision to classify wedding-related images and perform real-time selfie-based matching. After training on a dataset of wedding images, the system captures a live selfie, generates facial embeddings, and retrieves and displays the most similar wedding images from the dataset.
 
-RUN app.py by the command "python app.py"
+---
+
+## 🧠 Project Overview
+
+- Trains a model on a dataset of wedding images
+- Captures a selfie image from the camera
+- Extracts face embeddings using a pre-trained model (e.g., FaceNet or similar)
+- Compares embeddings to find and display similar wedding-related images
+- Provides a web interface for user interaction
+
+---
+
+## 📁 Project Structure
+
+.
+├──  app.py # Web app to capture selfie and perform matching
+├── train_model.py # Model training on wedding image dataset
+├── requirements.txt # Required Python packages
+└── README.md # Project documentation (you’re here)
+
+Install dependencies:
+--pip install -r requirements.txt
+
+--python train_model.py  (Make sure your dataset is correctly organized and available before running).
+
+--python app.py
+
+
+How It Works
+-> Train a CNN model on wedding image data.
+
+-> Capture a selfie using the webcam via the app.
+
+-> Generate embeddings from the captured selfie.
+
+-> Compare the embeddings with those of the dataset images.
+
+-> Display the top matched wedding images based on similarity.
+
+
+These are the Technologies Used For This Project
+--Python
+
+--OpenCV
+
+--TensorFlow / Keras
+
+--NumPy / Pandas
+
+--Face Recognition / Dlib / FaceNet (for embeddings)
+
+--Streamlit or Flask (for UI)
