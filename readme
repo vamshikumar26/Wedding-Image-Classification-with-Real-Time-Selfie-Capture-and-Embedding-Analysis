@@ -1,10 +1,10 @@
-# 💍 Wedding Image Classification and Real-Time Selfie Recognition using Embeddings
+# Wedding Image Classification and Real-Time Selfie Recognition using Embeddings
 
 This project uses deep learning and computer vision to classify wedding-related images and perform real-time selfie-based matching. After training on a dataset of wedding images, the system captures a live selfie, generates facial embeddings, and retrieves and displays the most similar wedding images from the dataset.
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 - Trains a model on a dataset of wedding images
 - Captures a selfie image from the camera
@@ -14,7 +14,7 @@ This project uses deep learning and computer vision to classify wedding-related 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 .
 ├──  app.py # Web app to capture selfie and perform matching
